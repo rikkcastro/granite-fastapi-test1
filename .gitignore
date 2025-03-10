@@ -1,0 +1,47 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+.env/
+.venv/
+
+# Ignore environment variable files
+.env
+
+# Ignore FastAPI's automatic server cache
+*.sqlite3
+*.db
+
+# Ignore IDE specific files (VSCode)
+.vscode/
+
+# Ignore logs
+*.log
+
+# Ignore local test files or results
+test-results/
+
+# Ignore cache or temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore coverage reports
+.coverage
+*.cover
+.coverage.*
+
+# Ignore pyenv and other Python-related environment files
+.python-version
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
